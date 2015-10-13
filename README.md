@@ -7,7 +7,7 @@
 ##编辑
 原则上只使用`\section{}`, `\subsection{}`, `\subsubsection{}`三级。
 
-里面需要使用图片的，为防止冲突，采用**文件名_编号**的方法命名, 如`part-one.tex`中的图片有`part-one-1.eps`, `part-one-2.png`等等。
+里面需要使用图片的，为防止冲突，采用**文件名-编号**的方法命名, 如`part-one.tex`中的图片有`part-one-1.eps`, `part-one-2.png`等等。
 
 文件内的内容，结构都可自由改动。确保以 `\newpage`开始，然后使用上面三层结构组织文字。如：
 
