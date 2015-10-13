@@ -1,0 +1,35 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt, a4paper]{article}
+\usepackage{fontspec,xltxtra,xunicode,graphicx}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage[slantfont,boldfont]{xeCJK}
+
+\defaultfontfeatures{Mapping=tex-text}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\setCJKmainfont{Songti SC}
+\setmainfont{Times New Roman}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{某项目建议书}
+\cfoot{第 \thepage 页}
+\setlength{\parindent}{2em}
+\begin{document}
+\input{cover}
+\renewcommand\contentsname{目录}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\tableofcontents
+
+\input{part-one}
+\input{part-two}
+\input{part-three}
+\input{part-four}
+\input{part-five}
+\input{part-six}
+
+\end{document}  
